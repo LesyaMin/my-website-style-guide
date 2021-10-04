@@ -1,0 +1,474 @@
+html{
+    font-size: 16px;
+}
+
+
+body{
+  background-color: #e0e0e0; 
+  font-family: "Roboto Condensed";
+  margin: 0;
+  
+  width: 100%;
+
+}
+
+.header{
+    background-color: #e0e0e0;
+    color: #d74315;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    font-family: "Roboto Condensed";
+    text-align: right;
+    
+}
+
+.header h1{
+    
+    margin: 3.5rem 4.3rem 0;
+    font-size: 2.5rem;
+    
+
+    
+}
+
+@media only screen and (max-width: 1200px) {
+    h1{
+        text-align: center;
+    }
+    
+}
+
+/*colors*/
+.section{
+    background-color: whitesmoke;
+    min-height: 450px;
+    width: 90%;
+    margin: 2.5rem auto;
+    padding-top: 1.9rem;
+    padding-bottom: 2rem;
+    
+
+}
+.colors{
+    text-align: center;
+}
+.colors-section{
+    display: inline-block;
+    width: 45%;
+    max-height: fit-content;
+    
+    margin: 1.5rem;
+    /*border: 1px solid gray;*/
+    
+     
+
+    
+}
+
+.colors h2{
+    margin: 1rem 4.5rem;
+    color:#161616;
+    text-transform: uppercase;
+    text-align: left;
+    border-bottom: 1px solid #bdbdbd;
+
+    
+
+}
+.colors h3{
+    margin: 0.7rem 2.2rem;
+    color:#161616;
+    text-transform: lowercase;
+    text-align: left;
+}
+.color-box{
+    display: inline-block;
+    width: 25%;
+    min-height: 50px;
+    margin: 1rem;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+.box1{
+    background-color: #ffab91;
+}
+.box2{
+    background-color: #fe5722;
+}
+.box3{
+    background-color: #d74315;
+}
+.box4{
+    background-color: #161616;
+}
+.box5{
+    background-color: #757575;
+}
+.box6{
+   background-color: #9e9e9e; 
+}
+.box7{
+    background-color: #4dd0e2;
+}
+.box8{
+    background-color: #00bcd5;
+}
+.box9{
+    background-color: #0098a6;
+}
+.box10{
+    background-color: #bdbdbd;
+}
+.box11{
+    background-color: #e0e0e0;
+}
+.box12{
+    background-color: #f8f9fb;
+}
+
+.line-colors .color-box p{
+    color:#161616;
+}
+
+/*media for colors*/
+@media only screen and (max-width: 1200px){
+    .color-box{
+        width: 90%;
+        margin: 1.5rem auto;
+    }
+    .colors-section{
+        display: block;
+        width: 90%;
+        overflow: hidden;
+    }
+    
+        
+}
+        
+
+/*typography*/
+.typography{
+    overflow: hidden;
+    
+
+}
+ #typo{
+  margin: 0.5rem 4.5rem;
+  text-transform: uppercase;
+  color: #161616;
+  border-bottom: 1px solid #bdbdbd;
+}
+.typography .typo-h3{
+    color: #161616;
+
+}
+.fonts{
+    width: 45%;
+    float: right;
+    color: #686868;
+    margin-right: 4.5rem;
+    margin-top: 1.5rem;
+    border-left: 1px solid #e0e0e0;
+    padding-left: 2rem;
+}
+
+.fonts h4{
+    color:#161616;
+}
+
+.headings{
+    float: left;
+    width: 30%;
+    margin: 1.5rem 4.5rem 0.4rem 4.5rem;
+    color: #686868;
+    
+    
+}
+.headings-wraper{
+    margin: 0 2rem;
+}
+.h1{
+    color: #d74315;
+}
+.paragraph{
+    margin: 1rem 4.5rem;
+    line-height: 1.5rem;
+    text-align-last: left;
+    color: #686868;;
+    width: 30%;
+    float: left;
+    
+}
+.paragraph p{
+    margin: 2rem;
+}
+
+.fonts p{
+    color: #161616;
+    font-size: 2.2rem;
+    
+}
+.fonts-block{
+    background-color: whitesmoke;
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.fonts .roboto{
+    font-family: "Roboto Condensed";
+    
+}
+.fonts .bold{
+    font-weight: bold;
+    
+}
+#blue{
+    color: #0098a6;
+}
+.fonts .italic{
+    font-style: italic;
+}
+.fonts .ubuntu-mono{
+    font-family: "Ubuntu Mono";
+    
+    
+}
+.numbers{
+    color: #0098a6;
+}
+
+/*media for typography*/
+@media only screen and (max-width: 1120px){
+    .headings, .fonts, .paragraph{
+        float: none;
+        width: 90%;
+    }
+    
+    .h1{
+        text-align: left;
+    }
+    .headings{
+        font-size: 1.5rem;
+    }
+    .fonts{
+        margin-left: 4.5rem;
+        border-left: none;
+        margin: 0 2rem;
+        /*font-size: 2.3rem;*/
+    }
+    .paragraph p{
+        line-height: 2.5rem;
+        
+    }
+}
+
+
+/*buttons*/
+.buttons{
+    text-align: center;
+    width: 100%;
+    margin: 2rem 0;
+    padding: 0;
+    /*float: right;*/
+}
+.elements{
+    overflow: hidden;
+}
+.elements h2{
+    margin: 0 4.5rem;
+    color:#161616;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: "Roboto Condensed";
+    border-bottom: 1px solid #bdbdbd;
+}
+.elements h3{
+    margin-left: 4.5rem;
+    color:#161616;
+    text-transform: lowercase;
+    text-align: left;
+    font-family: "Roboto Condensed";
+    width: 85%;
+    
+
+}
+.buttons h4{
+    color:#161616;
+    
+}
+    
+.buttons li:first-child{
+   
+    
+    border: 1px solid gray;
+}
+.buttons li{
+    display: inline-block;
+    text-align: center;
+    padding: 0.5rem 1.5rem;
+    width: 5rem;
+    margin: 1rem 0.5rem;
+    border-radius: 5px;
+
+}
+
+ a{
+    display: block;
+    text-decoration: none;
+    
+    padding: 0%;
+    margin: 0%;
+}
+
+.button1{
+    background-color: #fe5722;
+    color: whitesmoke;
+    border: 1px solid #d74315;
+
+}
+
+.button1 a{
+    color: whitesmoke;
+}
+.button2{
+    background-color: #f8f9fb;
+    border: 1px solid #d74315;
+    
+}
+.button2 a{
+    color: #d74315;
+}
+.button3{
+    background-color: #0ad0eb;
+    border: 1px solid #049aad;
+}
+.button3 a{
+    color: whitesmoke;
+}
+.button4{
+    background-color: #f8f9fb;
+    border: 1px solid #9e9e9e;
+}
+.button4 a{
+    color: #757575;
+}
+.hover{
+    margin-top: 7rem;
+}
+.hover1{
+    background-color: #d74315;
+    border: 1px solid #d74315;
+
+}
+.hover1 a{
+    color: whitesmoke;
+    
+}
+.hover2{
+    background-color: #fe5722;
+    border: 1px solid #d74315;
+}
+.hover2 a{
+    color:whitesmoke;
+}
+.hover3{
+    background-color: #0098a6;
+    border: 1px solid #049aad;
+}
+.hover3 a{
+    color: whitesmoke;
+}
+.hover4{
+    background-color: #4dd0e2;
+    border: 1px solid #049aad;
+
+}
+.hover4 a{
+    color: whitesmoke;
+}
+.button-styles{
+    font-family: "Ubuntu Mono";
+    display: inline-block;
+    list-style-type: none;
+    margin: 0.7rem 0;
+    padding:0.2rem;
+    /*margin-left: 4rem;*/
+    background-color: white;
+    width: 100%;
+    
+    
+}
+.button-styles li{
+   
+    text-align: left;
+    margin: 0%;
+    padding: 0%;
+    
+    
+}
+
+.button-styles-wraper{ 
+    overflow: hidden;
+    width: 25%;
+   
+    margin-left: 4rem;
+    float: left;
+    
+}
+
+.buttons-wraper{
+    
+    width: 60%;
+    float:right;
+    margin-right: 3rem;
+    text-align: left;
+    padding: 0;
+}
+@media only screen and (max-width: 1380px){
+    .buttons li{
+        display: block;
+        margin: 1rem auto 2.5rem;
+
+        
+    }
+    .buttons-wraper{
+        text-align: center;
+        margin-left: 0;
+    }
+    .button-styles-wraper{
+        width: 20%;
+        margin-right: 0;
+    }
+    .buttons{
+     display: inline-block;
+     width: 40%;
+     margin: 0;
+    }
+
+}
+@media only screen and (max-width: 970px){
+    .buttons-wraper{
+        float:none;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .button-styles-wraper{
+        float: none;
+        width: 90%;
+        margin: 0 auto;
+        
+    }
+    .button-styles li{
+        text-align: center;
+    }
+}
+
+.footer{
+    text-align: center;
+    font-size: 0.6rem;
+    padding: 1.5rem;
+}
+
